@@ -5,17 +5,17 @@
 ##
 ##
 
-SRC1	= answer/first.c
+SRC1	= src/1_first.c
 
-SRC2	= answer/second.c
+SRC2	= src/2_second.c
 
-SRC3	= answer/third.c
+SRC3	= src/3_third.c
 
-SRC4	= answer/fourth.c
+SRC4	= src/4_fourth.c
 
-SRC5	= answer/fifth.c
+SRC5	= src/5_fifth.c
 
-SRC6	= answer/sixth.c
+SRC6	= src/6_sixth.c
 
 OBJ1	=	$(SRC1:.c=.o)
 
