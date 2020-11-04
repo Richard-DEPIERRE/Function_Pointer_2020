@@ -1,6 +1,6 @@
 #include "my.h"
 
-void (*affiche(int a, int b))(int, int)
+void (*affiche(int a, int b))()
 {
     if (a >= b)
         return &affiche_sup;
